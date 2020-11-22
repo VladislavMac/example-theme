@@ -1,0 +1,44 @@
+{
+	"name": "name", 
+	"displayName": "отображаемое имя",
+	"description": "описание",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"publisher": "создатель",
+	"icon": "logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "отображаемое имя",
+				"uiTheme": "vs",
+				"path": "./themes/example.tmTheme"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Name/Repository"
+	},
+	"bugs": {
+		"url": "https://github.com/Name/Repository/issues"
+	},
+	"homepage": "https://github.com/Name/Repository/blob/main/README.md",
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"Название темы",
+		"и т.п"
+		],
+	"author": "Имя  <email>",
+	"license": "MIT",
+	"__metadata": {
+		"id": "id",
+		"publisherDisplayName": "создатель",
+		"publisherId": "id"
+	}
+}
